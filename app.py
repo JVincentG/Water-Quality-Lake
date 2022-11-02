@@ -1,4 +1,3 @@
-!pip install pycaret
 import sklearn
 import pycaret
 import streamlit as st
@@ -6,12 +5,7 @@ import pandas as pd
 from pycaret.regression import load_model,predict_model
 import sys
 import subprocess
-import conda.cli.python_api as Conda
 
-# implement conda as a subprocess:
-
-subprocess.check_call([sys.executable, '-m', 'conda', 'install', 
-'pycaret'])
 # Made by Jhon Vincent Gupo
 # jhonvincentgupo@gmail.com
 
