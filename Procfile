@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run app.py
+heroku stack:set heroku-22 && web: sh setup.sh && streamlit run app.py 
